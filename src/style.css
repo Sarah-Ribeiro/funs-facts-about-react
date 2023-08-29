@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  background: #282d35;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar */
+
+nav {
+  height: 90px;
+  padding: 30px 25px;
+  background: #21222a;
+  display: flex;
+  align-items: center;
+}
+
+.nav--logo_text,
+.nav--title {
+  margin: 0;
+}
+
+.nav--logo_text {
+  color: #61dafb;
+  margin-right: auto;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.nav--title {
+  color: #deebf8;
+  font-weight: 600;
+}
+
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+}
+
+/* Main */
+
+main {
+  padding: 57px 27px;
+  color: #fff;
+  background-image: url(./assets/logo.svg);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--title {
+  font-size: 39px;
+  margin: 0;
+  letter-spacing: -0.05rem;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
